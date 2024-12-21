@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-  <main>
-      The Website is under construction, please be patient
+    <main className="text-center">
+      There is not website <div className="inline text-black">yet.</div>
     </main>
- );
+  );
 }
